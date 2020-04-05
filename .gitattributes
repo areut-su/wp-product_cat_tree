@@ -1,0 +1,4 @@
+test_cats.json export-ignore
+test_product_cat_tree.php export-ignore
+.gitattributes export-ignore
+.git export-ignore
