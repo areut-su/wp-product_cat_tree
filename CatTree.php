@@ -42,9 +42,9 @@ class CatTree
     function makeTree()
     {
 
-        $result[] = '<div class="product-short-description">';
+        $this->result[] = '<div class="product-cat-tree">';
         $this->outTree(0);
-        $result[] = '</div>';
+        $this->result[] = '</div>';
 
         return $this->result;
 

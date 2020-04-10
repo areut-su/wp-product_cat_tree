@@ -52,5 +52,5 @@ function product_cat_tree_print($atts)
         echo $e->getMessage();
         echo '</pre>';
     }
-    echo implode($m->makeTree());
+    return implode($m->makeTree());
 }

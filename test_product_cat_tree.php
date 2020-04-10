@@ -1,7 +1,7 @@
 <?php
 if (PHP_SAPI !== 'cli')
 {
-    die();
+    die('is not cli');
 }
 
 function urlTest($id)
@@ -25,6 +25,7 @@ function test_product_cat_tree()
         echo $e->getMessage();
     }
     print_r($m->makeTree());
+    echo 'finish';
 }
 
 test_product_cat_tree();
